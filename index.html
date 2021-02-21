@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>StopWatch</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+   
+</head>
+<body>
+
+    <span class="write"></span>
+
+    <div>
+     <span class="time" id="dakika"> 00 </span>
+     <span class="time"> :  </span>
+     <span class="time" id="saniye"> 00 </span>
+     <span class="time"> :   </span>
+     <span class="time" id="salise"> 00 </span>
+
+    </div>
+
+    <butoon  onclick="start()"  class="buton start"> Start </butoon>
+    <butoon onclick="stop()"  class="buton stop" > Stop </butoon>
+    <butoon onclick="reset()"  class="buton reset" > Reset </butoon>
+    <butoon onclick="save()"  class="buton save" > Save </butoon>
+    <script src='script.js'></script>
+</body>
+</html>
